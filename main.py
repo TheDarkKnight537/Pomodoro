@@ -74,7 +74,7 @@ title = Label(text="Timer", font=(FONT_NAME, 48), fg=GREEN, bg=YELLOW, highlight
 title.grid(column=1, row=0)
 
 canvas = Canvas(width=200, height=224, bg=YELLOW, highlightthickness=0)
-tom_img = PhotoImage(file="tomato.png")
+tom_img = PhotoImage(file="C:/python/pomodoro/tomato.png") # Adjust the path as necessary
 canvas.create_image(100, 112, image=tom_img)
 timer_text = canvas.create_text(100, 130, text="00:00", fill="white", font=(FONT_NAME, 35, "bold"))
 canvas.grid(column=1, row=1)
